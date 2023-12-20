@@ -1,0 +1,48 @@
+body {
+    font-family: Helvetica, sans-serif; /* Tipo de fuente */
+    min-height: 100vh; /* Tamaño para dar lugar al footer */
+    display: flex;
+    flex-direction: column;
+    background-color: cornsilk; /* Color temporal */
+}
+
+/* Cambiamos el color de los hipervinculos y les sacamos el subrayado */
+a {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+/* Con esto les damos un color distinto al pasarles el cursos por encima */
+a:hover {
+    color:brown; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+/* Barra de navegación principal */
+#barraTop ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkgoldenrod; /* Color temporal */
+    height: 50px;
+    margin-top: 0px;
+    border-radius: 50px;
+}
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: darkgoldenrod; /* Color temporal */
+    margin-top: auto;
+    border-radius: 10px;
+    align-items: center;
+}
+
+footer h6 {
+    font-weight: lighter;
+    color: cornsilk; /* Color temporal */
+    margin: 10px;
+}
