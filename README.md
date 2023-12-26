@@ -1,7 +1,7 @@
-# Proyecto final de programación web UTN
+# :computer: Proyecto final de programación web UTN
 ## :cake: Pasteleria 'Caprichos Dulces' 
 
-> **CUIDADO**
+> [!WARNING]
 > Este proyecto no esta completado en su totalidad, al momento de ser terminado esta notificación desaparecera.
 
 [_Enlace a prototipo gráfico de la página_](https://www.figma.com/file/Z6fT8ywKTS0pXKAS92wOvX/Proyecto-UTN---Pasteler%C3%ADa-Caprichos-Dulces?type=design&node-id=0%3A1&mode=design&t=vxlFHbnXZtYwMTb4-1)
