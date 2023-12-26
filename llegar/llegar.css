@@ -4,6 +4,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: cornsilk; /* Color temporal */
+    margin: 0;
+    padding: 0;
 }
 
 /* Cambiamos el color de los hipervinculos y les sacamos el subrayado */
@@ -26,23 +28,28 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background-color: darkgoldenrod; /* Color temporal */
+}
+
+header {
+    background-color: darkgoldenrod;
+    margin: 0px;
     height: 50px;
-    margin-top: 0px;
-    border-radius: 50px;
+    width: 100%;
 }
 
 footer {
-    display: flex;
-    flex-flow: column nowrap;
     background-color: darkgoldenrod; /* Color temporal */
     margin-top: auto;
-    border-radius: 10px;
-    align-items: center;
 }
 
-footer h6 {
+footer section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     font-weight: lighter;
     color: cornsilk; /* Color temporal */
-    margin: 10px;
+}
+
+footer section h6:first-child {
+    margin-bottom: -10px;
 }
