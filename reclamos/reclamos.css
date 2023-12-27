@@ -28,6 +28,12 @@ a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 0px;
+}
+
+#barraTop img {
+    height: 40px;
+    width: auto;
 }
 
 header {
@@ -52,4 +58,34 @@ footer section {
 
 footer section h6:first-child {
     margin-bottom: -10px;
+}
+
+.divCuadrado {
+    width: 250px;
+    height: 250px;
+}
+
+.fondoRojo {
+    background-color: red;
+}
+
+.fondoAzul {
+    background-color: blue;
+}
+
+.fondoVerde {
+    background-color: green;
+}
+
+.letraBlanca {
+    color: white;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: row;
+}
+
+.desactivo {
+    display: none;
 }

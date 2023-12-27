@@ -36,6 +36,11 @@ a:hover {
     width: auto;
 }
 
+#barraTop img {
+    height: 40px;
+    width: auto;
+}
+
 header {
     background-color: darkgoldenrod;
     margin: 0px;
