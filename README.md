@@ -14,11 +14,25 @@
 
 - **Objetivo:** Convertirnos en la opción preferida para la compra de pasteles en nuestra comunidad. Servir una herramienta para aumentar ventas y fidelizar a los clientes.
 
-- **Secciones:** Home (Logo), Catálogo, Servicios, Cursos, Contacto, ¿Dónde estamos?, FAQ (Preguntas frecuentes)
+- **Secciones:** Home (Logo), Catálogo, Servicios, Cursos, Contacto, ¿Dónde estamos?, Reclamos
 
 ## Progreso del proyecto
 - [x] Armado de prototipo gráfico de la página (psuedocódigo)
 - [ ] Implementación del HTML
+  - [ ] HTML - Home
+  - [ ] HTML - Catálogo
+  - [ ] HTML - Servicios
+  - [x] HTML - Cursos
+  - [x] HTML - Contacto
+  - [ ] HTML - ¿Donde Estamos?
+  - [ ] HTML - Reclamos
 - [ ] Implementación del CSS
+  - [ ] CSS - Home
+  - [ ] CSS - Catálogo
+  - [ ] CSS - Servicios
+  - [x] CSS - Cursos
+  - [x] CSS - Contacto
+  - [ ] CSS - ¿Donde Estamos?
+  - [ ] CSS - Reclamos
 - [ ] Implementación del JavaScript
 - [ ] Pruebas finales
