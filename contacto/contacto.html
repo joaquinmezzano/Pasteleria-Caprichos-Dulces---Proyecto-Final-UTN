@@ -10,7 +10,7 @@
     <header>
         <nav id="barraTop">
             <ul>
-                <li id="home"><a href="../index/index.html">HOME (LOGO)</a></li>
+                <li id="home"><a href="../index/index.html"><img src="../logo.png" alt="Logo"></a></li>
                 <li id="catalogo"><a href="../catalogo/catalogo.html">Catálogo</a></li>
                 <li id="servicios"><a href="../servicios/servicios.html">Servicios</a></li>
                 <li id="cursos"><a href="../cursos/cursos.html">Cursos</a></li>
@@ -21,7 +21,31 @@
         </nav>
     </header>
     <article>
-
+        <div class="divisor">
+            <h2>¡Contactanos de la forma que quieras!</h2>
+            <p class="contacto">Nuestro telefono ► <strong>123456789</strong></p>
+            <p class="contacto">Nuestro email ► <strong>caprichosDulces@rrhh.com.ar</strong></p>
+            <p class="contacto">Aparecemos en todas las redes sociales como ► <strong>@caprichosDulces</strong></p>
+        </div>
+        <div class="divisor">
+            <h2>¡Hasta puedes contactanos mediante un formulario directo!</h2>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+        
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="8" required></textarea>
+        
+                <label>
+                    <input type="checkbox" name="suscripcion" value="suscrito"> Suscribirme al boletín
+                </label>
+        
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </article>
     <footer>
         <section>
