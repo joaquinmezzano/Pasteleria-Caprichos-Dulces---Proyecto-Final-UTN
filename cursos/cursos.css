@@ -53,3 +53,88 @@ footer section {
 footer section h6:first-child {
     margin-bottom: -10px;
 }
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nivel-container:not(:first-of-type) {
+    border-top: 2px solid brown;
+}
+
+.nivel-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 60%;
+    margin-top: 25px;
+}
+
+.nivel-container:last-child {
+    padding-bottom: 30px;
+}
+
+.nivel-container h2 {
+    color: brown;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 5px;    
+}
+
+.nivel-container p {
+    color: #402E32;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.curso {
+    color: black;
+    padding: 20px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+#principiante01 {
+    background: url('../cursos/imagenes/principiantes01.jpeg') no-repeat center center;
+    background-size: cover;
+}
+#principiante02 {
+    background: url('../cursos/imagenes/principiantes02.jpeg') no-repeat center center;
+    background-size: cover;
+}
+#principiante03 {
+    background: url('../cursos/imagenes/principiantes03.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+#intermedio01 {
+    background: url('../cursos/imagenes/intermedio01.jpeg') no-repeat center center;
+    background-size: cover;
+}
+#intermedio02 {
+    background: url('../cursos/imagenes/intermedio02.jpeg') no-repeat center center;
+    background-size: cover;
+}
+#intermedio03 {
+    background: url('../cursos/imagenes/intermedio03.jpeg') no-repeat center center;
+    background-size: cover;
+}
+
+#avanzado01 {
+    background: url('../cursos/imagenes/avanzado01.jpeg') no-repeat center center;
+    background-size: cover;
+}
+#avanzado02 {
+    background: url('../cursos/imagenes/avanzado02.jpeg') no-repeat center center;
+    background-size: cover;
+    text-decoration: line-through brown 2px;
+}
+#avanzado03 {
+    background: url('../cursos/imagenes/avanzado03.jpeg') no-repeat center center;
+    background-size: cover;
+}
