@@ -65,9 +65,20 @@ footer section h6:first-child {
     margin-bottom: -10px;
 }
 
-.divisor {
+#divisor1 {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    width: 75vh;
+    height: 50%;
+    margin: auto;
+}
+
+#divisor2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     width: 75vh;
     height: 50%;
@@ -77,14 +88,19 @@ footer section h6:first-child {
 h2 {
     color: brown;
 }
+.contacto a {
+    color:brown; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
 
-.divisor:first-of-type {
+#divisor1 {
     padding-top: 50px;
 }
 
-.divisor:last-of-type {
+#divisor2 {
     border-bottom: 2px;
-    margin-top: 50px;
+    margin-top: 30px;
     padding-bottom: 15px;
     border: 2px solid brown;
 }
@@ -92,6 +108,7 @@ h2 {
 form {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     width: 60vh;
     padding: 10px;
 }
@@ -103,4 +120,13 @@ form label {
 
 form label:last-of-type {
     padding-bottom: 10px;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    color: brown;
 }
