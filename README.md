@@ -6,7 +6,7 @@
 
 [_Enlace a prototipo gráfico de la página_](https://www.figma.com/file/Z6fT8ywKTS0pXKAS92wOvX/Proyecto-UTN---Pasteler%C3%ADa-Caprichos-Dulces?type=design&node-id=0%3A1&mode=design&t=vxlFHbnXZtYwMTb4-1)
 
-- **Integrantes:** Fosch Gordillo Matias, Martinez Gabriela Alejandra, Mezzano Joaquin
+- **Integrantes:** ~~Fosch Gordillo Matias~~, ~~Martinez Gabriela Alejandra~~, Mezzano Joaquin
 
 - **Idea:** Establecer una empresa dedicada a la elaboración y venta de pasteles artesanales, destacando por la calidad de los ingredientes, la creatividad en el diseño y la atención personalizada a los clientes. Queremos crear experiencias dulces y memorables para celebraciones especiales y momentos cotidianos.
 
@@ -18,21 +18,21 @@
 
 ## Progreso del proyecto
 - [x] Armado de prototipo gráfico de la página (psuedocódigo)
-- [ ] Implementación del HTML
-  - [ ] HTML - Home
-  - [ ] HTML - Catálogo
-  - [ ] HTML - Servicios
+- [x] Implementación del HTML
+  - [x] HTML - Home
+  - [x] HTML - Catálogo
+  - [x] HTML - Servicios
   - [x] HTML - Cursos
   - [x] HTML - Contacto
-  - [ ] HTML - ¿Donde Estamos?
-  - [ ] HTML - Reclamos
-- [ ] Implementación del CSS
-  - [ ] CSS - Home
-  - [ ] CSS - Catálogo
-  - [ ] CSS - Servicios
+  - [x] HTML - ¿Donde Estamos?
+  - [x] HTML - Reclamos
+- [x] Implementación del CSS
+  - [x] CSS - Home
+  - [x] CSS - Catálogo
+  - [x] CSS - Servicios
   - [x] CSS - Cursos
   - [x] CSS - Contacto
-  - [ ] CSS - ¿Donde Estamos?
-  - [ ] CSS - Reclamos
-- [ ] Implementación del JavaScript
+  - [x] CSS - ¿Donde Estamos?
+  - [x] CSS - Reclamos
+- [x] Implementación del JavaScript
 - [ ] Pruebas finales
