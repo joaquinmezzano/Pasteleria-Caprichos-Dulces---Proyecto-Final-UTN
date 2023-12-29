@@ -59,3 +59,59 @@ footer section {
 footer section h6:first-child {
     margin-bottom: -10px;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    color: brown;
+}
+
+#principal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#c1, #c2, #c3 {
+    margin-top: -35px;
+    height: 70%;
+    width: 25%;
+    border: 2px solid brown;
+    border-radius: 5px;
+}
+
+#img1, #img2, #img3 {
+    height: 35%;
+    border-bottom: 1px solid brown;
+}
+
+#img1 {
+    background: url("../index/imagenes/index01.jpeg") no-repeat center center;
+    background-size: cover;
+}
+
+#img2 {
+    background: url("../index/imagenes/index02.jpeg") no-repeat center center;
+    background-size: cover;
+}
+
+#img3 {
+    background: url("../index/imagenes/index03.jpeg") no-repeat center center;
+    background-size: cover;
+}
+
+h4 {
+    text-align: center;
+    font-size: larger;
+}
+
+p {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: larger;
+}
