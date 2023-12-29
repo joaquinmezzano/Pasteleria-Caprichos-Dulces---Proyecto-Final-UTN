@@ -59,3 +59,102 @@ footer section {
 footer section h6:first-child {
     margin-bottom: -10px;
 }
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    color: brown;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin-top: 100px;
+    align-items: center;
+}
+
+#mitadInf {
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#mitadSup {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+#serPrin, #serSec {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid goldenrod;
+}
+
+.subtitulos {
+    display: flex;
+    flex-flow: column wrap;
+    height: 15%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    color: brown;
+}
+
+.listas {
+    display: flex;
+    flex-flow: column wrap;
+    height: 85%;
+    width: 100%;
+    align-items: left;
+}
+
+.listas ul {
+    display: flex;
+    flex-flow: column wrap;
+    list-style: none;
+    align-items: center;
+}
+
+.listas ul li {
+    padding: 15px;
+    font-size: large;
+}
+
+#destacado {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid goldenrod;
+    border-style: dashed;
+    color: cornsilk;
+    background-color: goldenrod;
+}
+
+#img {
+    height: 80%;
+    width: 100%;
+    background: url('../servicios/imagenes/destacado.jpeg') no-repeat center center;
+    background-size: cover;
+    border-bottom: 2px solid goldenrod;
+}
