@@ -21,13 +21,155 @@
             </ul>
         </nav>
     </header>
-    <article id="contenedor">
-        <div class="divCuadrado fondoRojo letraBlanca activo">Contenido 1</div>
-        <div class="divCuadrado fondoAzul letraBlanca desactivo">Contenido 2</div>
-        <div class="divCuadrado fondoVerde letraBlanca desactivo">Contenido 3</div>
-    </article>
-    <button id="btnSiguiente" onclick="aparecerSiguiente();">Siguiente</button>
-    <!-- <button id="btnSiguiente" onclick="saludar();">Siguiente</button> -->
+    <h1>¡Tu voz importa! Resolvemos tus inquietudes</h1>
+    <form id="wizard" action="">
+        <div class="tab">
+            <p class="subtitulos">Por favor ingrese su información y proceda a la siguiente etapa para que pueda realizar su reclamo</p>
+            <div>
+                <h5>Datos personales</h5>
+                <p class="dato"><input name="nombre" id="nombre" placeholder="Nombre" oninput="this.className = ''" required></p>
+                <p class="dato"><input name="apellido" id="apellido" placeholder="Apellido" oninput="this.className = ''" required></p>
+            </div>
+            <div>
+                <h5>Fecha de nacimiento</h5>
+                <p class="dato"><input name="dia" id="dia" placeholder="Dia" oninput="this.className = ''" required></p>
+                <p class="dato"><input name="mes" id="mes" placeholder="Mes" oninput="this.className = ''" required></p>
+                <p class="dato"><input name="anno" id="anno" placeholder="Año" oninput="this.className = ''" required></p>
+            </div>
+            <div>
+                <h5>Formas de contacto</h5>
+                <p class="dato"><input name="email" id="email" placeholder="Email" oninput="this.className = ''" required></p>
+                <p class="dato"><input name="telefono" id="telefono" placeholder="Telefono" oninput="this.className = ''" required></p>
+            </div>
+        </div>
+        
+        <div class="tab">
+            <p class="subtitulos">Tipo de reclamo a realizar</p>
+            <label for="opcionesR">Selecciona el tipo de reclamo:</label>
+            <select id="opcionesR" name="opcionesR" required>
+                <option value="" disabled selected>Reclamos disponibles</option>
+                <option value="r01">Producto incorrecto</option>
+                <option value="r02">Producto defectuoso</option>
+                <option value="r03">Problemas con la entrega</option>
+                <option value="r04">Mala calidad de producto</option>
+                <option value="r05">El producto no cumple con las expectativas</option>
+                <option value="r06">El curso no cumple con las expectativas</option>
+                <option value="r07">Mala atención al cliente</option>
+                <option value="r08">Problemas con el pago</option>
+                <option value="r09">Problemas con la página web</option>
+                <option value="r10">Otros</option>
+            </select>
+            <div id="infoOpcion01" class="invisible"><p>
+                Al seleccionar esta opción usted podra:
+                <ul>
+                    <li>Quedarse con el producto recibido.</li>
+                    <li>Pedir el cambio del producto equivocado al producto que originalmente ordeno (5-7 dias habiles)</li>
+                    <li>Pedir el reembolso correspondiente al monto del momento de la compra del producto original.</li>
+                </ul>
+                Al momento de confirmar el reclamo usted mismo quedara inhabilitado de la compra de futuros productos hasta que el problema con el reclamo actual sea arreglado.
+                Mas información le llegara al email/telefono provisto en la etapa anterior para un acercamiento mas riguroso al problema.
+            </p></div>
+            <div id="infoOpcion02" class="invisible"><p>
+                Al seleccionar esta opción usted podra:
+                <ul>
+                    <li>Quedarse con el producto recibido.</li>
+                    <li>Pedir el reembolso correspondiente al monto del momento de la compra del producto original.</li>
+                </ul>
+                Al momento de confirmar el reclamo usted mismo quedara inhabilitado de la compra de futuros productos hasta que el problema con el reclamo actual sea arreglado.
+                Mas información le llegara al email/telefono provisto en la etapa anterior para un acercamiento mas riguroso al problema.
+                Lamentamos que haya ocurrido esto.
+            </p></div>
+            <div id="infoOpcion03" class="invisible"><p>
+                Los problemas con la entrega de los productos no son problema ni cuentan con la supervisión de nuestro personal. Espero que comprenda la situación y se comunique con el servicio de entrega que solicito en el local.
+            </p></div>
+            <div id="infoOpcion04" class="invisible"><p>
+                Al seleccionar esta opción usted podra:
+                <ul>
+                    <li>Quedarse con el producto recibido.</li>
+                    <li>Pedir el reembolso correspondiente al monto del momento de la compra del producto original.</li>
+                    <li>Contarnos cual fue el problema con el producto:
+                        <textarea class="reclamoTexto" placeholder="Escriba aqui cual fue el problema." name="mensaje" rows="8"></textarea>
+                    </li>
+                </ul>
+                Al momento de confirmar el reclamo usted mismo quedara inhabilitado de la compra de futuros productos hasta que el problema con el reclamo actual sea arreglado.
+                Mas información le llegara al email/telefono provisto en la etapa anterior para un acercamiento mas riguroso al problema.
+            </p></div>
+            <div id="infoOpcion05" class="invisible"><p>
+                Al seleccionar esta opción usted podra:
+                <ul>
+                    <li>Quedarse con el producto recibido.</li>
+                    <li>Pedir el reembolso correspondiente al monto del momento de la compra del producto original.</li>
+                    <li>Contarnos cual fue el problema con el producto:
+                        <textarea class="reclamoTexto" placeholder="Escriba aqui cual fue el problema." name="mensaje" rows="8"></textarea>
+                    </li>
+                </ul>
+                Al momento de confirmar el reclamo usted mismo quedara inhabilitado de la compra de futuros productos hasta que el problema con el reclamo actual sea arreglado.
+                Mas información le llegara al email/telefono provisto en la etapa anterior para un acercamiento mas riguroso al problema.
+            </p></div>
+            <div id="infoOpcion06" class="invisible"><p>
+                Al seleccionar esta opción usted podra:
+                <ul>
+                    <li>Contarnos cual fue el problema con el curso/la cursada:
+                        <textarea class="reclamoTexto" placeholder="Escriba aqui cual fue el problema." name="mensaje" rows="8"></textarea>
+                    </li>
+                </ul>
+                Toda información en relación a la cursada es importante ya que se utilizara para lograr un mejor desempeño en futuras ediciones de la misma.
+                Mas información le llegara al email/telefono provisto en la etapa anterior para un acercamiento mas riguroso al problema.
+            </p></div>
+            <div id="infoOpcion07" class="invisible"><p>
+                Al seleccionar esta opción usted podra contarnos:
+                <ul>
+                    <li>¿Cual fue el problema que causo la disputa con el empleado?:
+                        <textarea class="reclamoTexto" placeholder="Escriba aqui cual fue el problema." name="mensaje" rows="4"></textarea>
+                    </li>
+                    <li>
+                        ¿Recuerda el nombre del empleado o podria dar una descripción física del mismo?
+                        <textarea class="reclamoTexto" placeholder="Describa al empleado." name="mensaje" rows="4"></textarea>
+                    </li>
+                </ul>
+                Se analizara la situación y luego se le comentara al empleado en cuestion para dar su versión de los hechos.
+                Mas información le llegara al email/telefono provisto en la etapa anterior para un acercamiento mas riguroso al problema.
+            </p></div>
+            <div id="infoOpcion08" class="invisible"><p>
+                Los problemas/tardanzas con el pago en relación a productos o cursos de nuestra empresa no son un problema ni cuentan con la atención de nuestros empleados. Le rogamos se comunique con su banco/organización para ver cual es el problema.
+            </p></div>
+            <div id="infoOpcion09" class="invisible"><p>
+                Al seleccionar esta opción usted podra:
+                <ul>
+                    <li>Contarnos cual fue el problema con la página web:
+                        <textarea class="reclamoTexto" placeholder="Escriba aqui cual fue el problema." name="mensaje" rows="8"></textarea>
+                    </li>
+                </ul>
+                Toda información en relación a la página es importante para su mejor funcionamiento y eficiencia. ¡Trataremos de solucionarlo lo antes posible!
+            </p></div>
+            <div id="infoOpcion10" class="invisible"><p>
+                Al seleccionar esta opción usted podra:
+                <ul>
+                    <li>Darnos sugerencias o comentar un error que no se encuentra listados en los anteriores:
+                        <textarea class="reclamoTexto" placeholder="Escriba aqui cual fue el problema o la sugerencia." name="mensaje" rows="12"></textarea>
+                    </li>
+                </ul>
+            </p></div>
+            <p class="invisible" id="confirmacion"><input type="checkbox" name="confirmacion" id="confirmacionCheckbox" required><strong>Confirmo que todo lo expresado anteriormente es veridico y me mantengo responsable ante mi palabra.</strong></p>
+        </div>
+        
+        <div class="tab" id="datosMostrados"></div>
+
+        <div style="overflow:auto;">
+          <div style="float:right;">
+            <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+            <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+          </div>
+        </div>
+        
+        <!-- Circles which indicates the steps of the form: -->
+        <div style="text-align:center;margin-top:40px;">
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+        </div>
+        
+    </form>
     <footer>
         <section>
             <h6> Proyecto de página web para UTN </h6>
