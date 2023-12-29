@@ -60,32 +60,107 @@ footer section h6:first-child {
     margin-bottom: -10px;
 }
 
-.divCuadrado {
-    width: 250px;
-    height: 250px;
+h1, .subtitulos {
+    text-align: center;
+    color: brown;
 }
 
-.fondoRojo {
-    background-color: red;
+h1 {
+    margin-bottom: -10px;
 }
 
-.fondoAzul {
-    background-color: blue;
+.dato {
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
 
-.fondoVerde {
-    background-color: green;
+/* Style the form */
+#wizard {
+    background-color: cornsilk;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+    border-radius: 10px;
+    border: 2px solid darkgoldenrod
+}
+  
+/* Style the input fields */
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+  
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    background-color: #ffdddd;
+}
+  
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+  
+/* Make circles that indicate the steps of the form: */
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+  
+/* Mark the active step: */
+.step.active {
+    opacity: 1;
+}
+  
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    background-color: orangered;
 }
 
-.letraBlanca {
-    color: white;
+.opcionR {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin: 0px;
 }
 
-#contenedor {
+.invisible {
+    display: none;
+}
+
+.infoProducto {
+    display: flex;
+    flex-direction: column;
+}
+
+.reclamoTexto {
     display: flex;
     flex-direction: row;
+    width: 500px;
+    margin-top: 5px;
 }
 
-.desactivo {
-    display: none;
+#confirmacionCheckbox {
+    background-color: red;
+    width: 15px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    color: brown;
 }
