@@ -6,7 +6,7 @@
 
 [_Enlace a prototipo gráfico de la página_](https://www.figma.com/file/Z6fT8ywKTS0pXKAS92wOvX/Proyecto-UTN---Pasteler%C3%ADa-Caprichos-Dulces?type=design&node-id=0%3A1&mode=design&t=vxlFHbnXZtYwMTb4-1)
 
-- **Integrantes:** ~~Fosch Gordillo Matias~~, ~~Martinez Gabriela Alejandra~~, Mezzano Joaquin
+- **Integrantes:** Mezzano Joaquin
 
 - **Idea:** Establecer una empresa dedicada a la elaboración y venta de pasteles artesanales, destacando por la calidad de los ingredientes, la creatividad en el diseño y la atención personalizada a los clientes. Queremos crear experiencias dulces y memorables para celebraciones especiales y momentos cotidianos.
 
@@ -36,3 +36,13 @@
   - [x] CSS - Reclamos
 - [x] Implementación del JavaScript
 - [ ] Pruebas finales
+
+## Cambios importantes del boceto al proyecto
+- Disposición del nav cambiado, elementos agrupados con el logo
+- Categoria FAQ reemplazada por categoria Reclamos
+- Filtro/Categorias eliminadas de la categoria Catalogo por falta de productos
+- Disposición de elementos en la categoria Servicios:
+  - 'Servicio destacado' reposicionado al comienzo
+  - 'Servicios principales' y 'Servicios secundarios' reposicionados al final
+- Fichero tipo Wizard cambiado de la categoria Contacto a la categoria Reclamos
+- Filtro de localidades eliminado de la categoria ¿Como llegar?
