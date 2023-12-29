@@ -1,27 +1,24 @@
 body {
-    font-family: Helvetica, sans-serif; /* Tipo de fuente */
-    min-height: 100vh; /* Tamaño para dar lugar al footer */
+    font-family: Helvetica, sans-serif;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: cornsilk; /* Color temporal */
+    background-color: cornsilk;
     margin: 0;
     padding: 0;
 }
 
-/* Cambiamos el color de los hipervinculos y les sacamos el subrayado */
 a {
     text-decoration: none;
     color: cornsilk;
 }
 
-/* Con esto les damos un color distinto al pasarles el cursos por encima */
 a:hover {
     color:brown; 
     text-decoration:none; 
     cursor:pointer;  
 }
 
-/* Barra de navegación principal */
 #barraTop ul {
     list-style: none;
     display: flex;
@@ -44,7 +41,7 @@ header {
 }
 
 footer {
-    background-color: darkgoldenrod; /* Color temporal */
+    background-color: darkgoldenrod;
     margin-top: auto;
 }
 
@@ -53,7 +50,7 @@ footer section {
     flex-flow: column nowrap;
     align-items: center;
     font-weight: lighter;
-    color: cornsilk; /* Color temporal */
+    color: cornsilk;
 }
 
 footer section h6:first-child {
@@ -74,7 +71,6 @@ h1 {
     margin-bottom: 15px;
 }
 
-/* Style the form */
 #wizard {
     background-color: cornsilk;
     margin: 100px auto;
@@ -85,7 +81,6 @@ h1 {
     border: 2px solid darkgoldenrod
 }
   
-/* Style the input fields */
 input {
     padding: 10px;
     width: 100%;
@@ -96,17 +91,14 @@ input {
     border-radius: 10px;
 }
   
-/* Mark input boxes that gets an error on validation: */
-input.invalid {
+input.invalido {
     background-color: #ffdddd;
 }
   
-/* Hide all steps by default: */
 .tab {
     display: none;
 }
   
-/* Make circles that indicate the steps of the form: */
 .step {
     height: 15px;
     width: 15px;
@@ -118,12 +110,10 @@ input.invalid {
     opacity: 0.5;
 }
   
-/* Mark the active step: */
 .step.active {
     opacity: 1;
 }
   
-/* Mark the steps that are finished and valid: */
 .step.finish {
     background-color: orangered;
 }
