@@ -98,11 +98,20 @@ article {
 }
 
 .curso {
-    color: black;
+    color: darkslategray;
     padding: 20px;
     margin: 5px;
     width: 100%;
     border-radius: 50px;
+    border: 1px solid brown;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    color: brown;
 }
 
 #principiante01 {
