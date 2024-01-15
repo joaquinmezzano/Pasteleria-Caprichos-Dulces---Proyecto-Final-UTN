@@ -88,17 +88,17 @@ h1 {
 }
 
 #img1 {
-    background: url("../index/imagenes/index01.jpeg") no-repeat center center;
+    background: url("../index01.jpeg") no-repeat center center;
     background-size: cover;
 }
 
 #img2 {
-    background: url("../index/imagenes/index02.jpeg") no-repeat center center;
+    background: url("../index02.jpeg") no-repeat center center;
     background-size: cover;
 }
 
 #img3 {
-    background: url("../index/imagenes/index03.jpeg") no-repeat center center;
+    background: url("../index03.jpeg") no-repeat center center;
     background-size: cover;
 }
 
